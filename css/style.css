@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.filme {
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.filme__ladoa {
+    border: 1px solid;
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.filme__imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    width: 80%;
+    height: 80%;
+}
+
+.filme__ladob {
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.filme__sinopse {
+    width: 100%;
+    height: 10%;
+
+    padding: 5%;
+
+}
+
+.filme__sinopse {
+    width: 100%;
+    height: 30%;
+
+    padding: 5%;
+}
+
