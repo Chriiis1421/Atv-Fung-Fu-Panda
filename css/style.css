@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2? family=Lilita+One&family=Noto+Sans+JP&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    background-image: url(../img/fundo.jpg);
+    background-size: 100%;
 }
 
 .filme {
-    border: 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +22,6 @@
 }
 
 .filme__ladoa {
-    border: 1px solid;
     width: 40%;
     height: 100%;
 
@@ -35,7 +42,6 @@
 }
 
 .filme__ladob {
-    border: 1px solid;
     width: 100%;
     height: 100%;
 
