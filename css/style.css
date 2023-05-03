@@ -11,15 +11,58 @@
 body {
     background-image: url(../img/fundo.jpg);
     background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
 }
 
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(207, 77, 25, 0.377);
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.filme__titulo {
+    background-color: rgba(207, 77, 25, 0.377);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cabecalho__nave_naves {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    gap: 30px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.cabecalho__nave_naves__link {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
 .filme {
+    border: 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
+
 
 .filme__ladoa {
     width: 40%;
@@ -39,6 +82,10 @@ body {
 
     width: 80%;
     height: 80%;
+    background-color: rgba(207, 77, 25, 0.377);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .filme__ladob {
@@ -49,21 +96,39 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
     gap: 25px;
 }
 
 .filme__sinopse {
-    width: 100%;
-    height: 10%;
-
-    padding: 5%;
-
+    background-color: rgba(207, 77, 25, 0.377);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
 }
 
-.filme__sinopse {
-    width: 100%;
-    height: 30%;
+.filme__personagens {
+    background-color: rgba(207, 77, 25, 0.377);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
 
-    padding: 5%;
+.rodape {
+    background-color: rgba(207, 77, 25, 0.377);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+}
+
+.rodape__link a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 10px;
 }
 
